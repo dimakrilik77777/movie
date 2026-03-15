@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a5622b3-2e76-4d22-a283-6048e55c0b14">
+  <producedTypes>
+    <objectType typeId="29061c2d-c4f8-4ead-8b32-ffeee057a146" valueTypeId="c2787603-9df8-492b-8575-eebd9ab7a19b"/>
+    <refType typeId="2936148a-4f6c-4806-9d75-651aa5d50e0e" valueTypeId="4275c697-f594-4902-88eb-7bcd0afe96fc"/>
+    <selectionType typeId="d34b058f-8397-4157-8aea-9e1c22a792dd" valueTypeId="32d02981-a648-43f2-9944-e275bbfcc294"/>
+    <listType typeId="37141c78-0720-4bff-9a8e-72d7efadcd8d" valueTypeId="bccc9dd0-7b87-4d8d-9094-e7ab4a9e0c69"/>
+    <managerType typeId="b49f0fc7-083d-4cf4-9c1e-016babb06776" valueTypeId="6a80df3a-7c8a-440a-80b6-4cc220445700"/>
+  </producedTypes>
+  <name>Сеансы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сеансы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Сеансы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Сеансы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

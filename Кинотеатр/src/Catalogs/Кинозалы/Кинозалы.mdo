@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec8350df-5358-4ded-8264-94b13ad51d79">
+  <producedTypes>
+    <objectType typeId="0b1dcedd-4804-40ea-b48b-594d09acecc6" valueTypeId="88690683-ab63-4680-81df-53de9a2c0831"/>
+    <refType typeId="8ea1eb9f-233c-429f-b804-68f7974cabb6" valueTypeId="6c9a6d84-17f5-4b9f-bf7d-a2175c116982"/>
+    <selectionType typeId="1d7eed6c-f6d8-4516-a6bd-26a2348712f8" valueTypeId="284c6331-06ce-44e1-bb0b-cc1dfc040a6d"/>
+    <listType typeId="e5569e52-26be-4492-8665-85e4136debd1" valueTypeId="2b49aa31-c4d9-4643-bc6a-f811cfdc22c2"/>
+    <managerType typeId="ae76083d-3a73-4123-8496-4de584f6e4a7" valueTypeId="6b7c18e4-99e5-4eed-bb72-cc0151f4b30a"/>
+  </producedTypes>
+  <name>Кинозалы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кинозалы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Кинозалы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Кинозалы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Кинозалы</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="cc4def11-89b8-4a63-8ffd-543992d15f31">
+    <name>НомерЗала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер зала</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="65bc00ca-7d81-4e82-964a-c0f6a4f088d7">
+    <name>КоличествоМест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

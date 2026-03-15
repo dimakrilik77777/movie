@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00e4752e-11f3-40db-a666-edc1811ce23b">
+  <producedTypes>
+    <objectType typeId="d2ea8e26-b485-4810-b162-1ba1316bdbee" valueTypeId="208e96d6-39d9-405a-ae24-25f887e34e09"/>
+    <refType typeId="f27adef8-1b1c-4231-bd88-7abc17523321" valueTypeId="76170d24-8812-48e2-93ec-a12a2cc27d6e"/>
+    <selectionType typeId="661c9dd4-4d68-434d-8f46-7ad7045eb8a3" valueTypeId="394da8e1-c5f0-41cb-8dfa-b1976d2ef053"/>
+    <listType typeId="77956a90-48f8-447a-adb1-a235e17ac2a0" valueTypeId="f089c30c-5f18-4b48-b893-ef904e531ec0"/>
+    <managerType typeId="2e4e68e0-08fd-4dc1-85b6-33e269ace8f7" valueTypeId="7b4573e9-017e-4ae3-a247-a526ae831b38"/>
+  </producedTypes>
+  <name>ЖанрыФильмов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Жанры фильмов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЖанрыФильмов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ЖанрыФильмов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Жанры фильмов</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="bff88287-c848-4af9-a58d-7074bb86329a">
+      <name>Комедия</name>
+      <description>Комедия</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="e6748131-d5b2-4e96-bd73-a3cb83fd7d2e">
+      <name>Драма</name>
+      <description>Драма</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="97b70af4-6aaa-493b-a23c-e108a0e6ed33">
+      <name>Фантастика</name>
+      <description>Фантастика</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

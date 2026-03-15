@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f864223f-2954-4d4a-8ca4-1368e936e7e6">
+  <producedTypes>
+    <objectType typeId="670479d3-6147-4d3d-b394-da60bba320a4" valueTypeId="077b2aa7-13b7-4e28-bb25-d7c6821499b8"/>
+    <refType typeId="ebd3a6b3-b844-4c6f-896a-4984581e7f51" valueTypeId="efe5bade-173f-457f-b289-d9c6bb49c920"/>
+    <selectionType typeId="abf97c39-1cfd-437e-9c54-12f7b78c550e" valueTypeId="c08faa8e-2ba6-4a5f-a976-399d5b193fa3"/>
+    <listType typeId="64416547-fce2-4dd3-897b-ca1deae0bce5" valueTypeId="aa9a8583-171f-463e-9111-e4a4e387f162"/>
+    <managerType typeId="871e8429-6b09-433c-826f-c04b46fa7586" valueTypeId="831cc48a-da17-4e8d-8c45-80372e4be6d9"/>
+  </producedTypes>
+  <name>Фильмы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фильмы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Фильмы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Фильмы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Фильмы</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="34fd8265-a53c-4b72-bd07-5ace4c8325b7">
+    <name>ОписаниеФильма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание фильма</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c87ee878-e6c1-4266-80da-f456e78e59d0">
+    <name>Жанр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Жанр</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЖанрыФильмов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fe992614-eaaa-4c65-b3cc-b1f40ae77b1d">
+    <name>Длительность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительность (мин)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="19fb827d-2877-4f98-a8a8-9758f1b722c0">
+    <name>СтранаПроисхождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страна происхождения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
