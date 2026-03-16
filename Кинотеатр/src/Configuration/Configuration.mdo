@@ -50,4 +50,5 @@
   <catalogs>Catalog.Фильмы</catalogs>
   <documents>Document.Продажа</documents>
   <enums>Enum.ВидыНоменклатуры</enums>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>
